@@ -118,10 +118,27 @@ body .container{
 }
 
 .header-menu{
-
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.email-tel{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 4px;
+    
+    
+}
+
+.email-tel .svg-sobre-tel svg path{
+    fill: #757575;
+    margin-right: 4px;
+}
+
+.email-tel svg path:hover{
+    fill: #2196F3;
 }
 
 .header-email-tel{ 
@@ -131,7 +148,24 @@ body .container{
     gap: 50px;
 }
 
+.header-email-tel .email-tel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header-email{
+    width: 118px;
+    height: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
     text-decoration: none;
 }
 
