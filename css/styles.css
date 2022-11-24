@@ -6,6 +6,7 @@
 }
 
 body{
+    margin: 0 auto;
     width: 1600px;
     font-family: 'roboto' 'sans-serif' 'Raleway';
     background: #E5E5E5;
@@ -15,7 +16,9 @@ body{
 .box-body{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
 }
 
 .buttons .button{
@@ -74,8 +77,6 @@ ul{
 }
 
 body .container{
-    margin-left: 215px;
-
     display: flex;
     justify-content: center;
 }
@@ -202,7 +203,7 @@ body .container{
                         /*   titulo  section 1 */
 
 .section{
-    
+    margin-bottom: 94px;
 }
 
 .title-pal{
@@ -212,6 +213,7 @@ body .container{
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+    
 
     text-align: center;
     letter-spacing: 0.06em;
@@ -363,7 +365,6 @@ color: #757575;
                                      /* section 3*/
 
 .about-galery {
-    margin-left: 400px;
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -419,22 +420,13 @@ top: 1092px;
                                  /*section team */
 .team{
     width: 1600px;
-    height: 648px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
 
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
+    background: #E5E5E5;
 }
 
 .box-imag-team{
@@ -447,6 +439,21 @@ top: 1092px;
 
 }
 
+.box-imag-team .card{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-imag-team .card h3{
+    margin-top: 30px;
+}
+
+.box-imag-team .card p{
+    margin-top: 10px;
+}
+
 .team ul >li> img{
     width: 270px;
     height: 260px;
@@ -455,17 +462,45 @@ top: 1092px;
 
 .card{
     width: 270px;
-    height: 368px;
-
     background: #FFFFFF;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 94px;
+    border-radius: 0px 0px 4px 4px;
+}
+.card ul{
+    margin-top: 16px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card ul > li{
+    width: 44px;
+    height: 44px;
+    
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.icon use{
+    fill: #AFB1B8;;
+}
+
+.icon use:hover{
+    fill: #2196F3;;
 }
 
 .title-team{
     width: 263px;
     height: 42px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -499,6 +534,79 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
+                        /*    section end    */
+.box-svg{
+    width: 1600px;
+    height: 1px;
+}
+.section-end{
+    width: 1600px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F4FA;
+    
+}    
+
+.section-end h2{
+    width: 323px;
+    height: 36.98px;
+    margin-top: 1px;
+    margin-bottom: 44px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.section-end .logos-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.section-end .logos-svg li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 170px;
+    height: 81px;
+    
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    
+}
+
+.section-end .logos-svg li:hover{
+    border: 1px solid #2196F3;
+}
+
+.logos{
+    
+    width: 50%;
+    height: 50%;
+    
+}
+
+.logos use{
+    fill: #757575;
+}
+
+.logos use:hover{
+    fill: #2196F3;
+}
                         /*    pie de pagina    */
 .footer {
     width: 1600px;
@@ -514,6 +622,7 @@ color: #757575;
 
 .link-webstudio-footer{
 margin-left: 250px;
+margin-bottom: 9px;
 text-decoration: none;
 
 font-style: normal;
@@ -526,9 +635,6 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 
-.footer address >ul >li{
-    /*margin-left: 215px;*/
-}
 
 .piepag-direcion{
 
