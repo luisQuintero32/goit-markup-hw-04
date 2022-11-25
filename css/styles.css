@@ -202,9 +202,10 @@ body .container{
 
                         /*   titulo  section 1 */
 
-.section{
+/*.section{
     margin-bottom: 94px;
-}
+    background: #F5F4FA;
+}*/
 
 .title-pal{
     width: 696px;
@@ -245,16 +246,73 @@ body .container{
     height: 50px;
 }
                             /* section 2*/
-
+.quality{
+    height: 350PX;
+    background: #E5E5E5;
+    
+}
 .quality ul{
-    margin: 215px;
+    
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.quality .box-quality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.quality .box1-quality{
+    padding-top: 82PX;
+    gap: 30px;
+    background: #F5F4FA;
+    
+}
+
+.quality .box1-quality .box-quality{
+    
+    width: 270px;
+    margin-bottom: 99px;
+    background: #F5F4FA;
+}
+
+.quality .box1-quality .box-quality div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    margin-bottom: 30px;
+    
+    background: #E5E5E5;
+}
+
+
+.quality .box1-quality .box-quality svg{
+    width: 27Opx;
+    height: 120px;   
+    
+} 
+
+.icon-first{
+    width: 75px;
+    height: 70px;
 }
 
 .box-quality{
     width: 270px;
+}
+
+.special-box{
+    padding-top: 24px;
+}
+
+.special-box div svg{
+
 }
 
 .title-1p{
@@ -365,35 +423,65 @@ color: #757575;
                                      /* section 3*/
 
 .about-galery {
+    height: 579PX;
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
 
-}
-
-.about-galery figure{
-    
+    background: #F5F4FA;
 }
 
 .title-galery{
-width: 371.15px;
-margin-bottom: 55px;
+    width: 371.15px;
+    margin-bottom: 55px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    }
 
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-}
-
-.galery-imag{
+.about-galery .galery-imag ul{
     display: flex;
     align-items: center;
-    gap: 24px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-galery .galery-imag ul> li{
+    width: 370px;
+    height: 294px;
+}
+
+.galery-imag ul> li> div{
+    width: 370px;
+    height: 70px;
+    left: 1015px;
+    top: 1435px;
+    
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.galery-imag ul> li> div p{
+    width: 166px;
+    height: 16px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }
 
 .img-title-2-1{
@@ -420,6 +508,7 @@ top: 1092px;
                                  /*section team */
 .team{
     width: 1600px;
+    height: 708PX;
 
     display: flex;
     flex-direction: column;
@@ -607,21 +696,38 @@ color: #757575;
 .logos use:hover{
     fill: #2196F3;
 }
-                        /*    pie de pagina    */
+                        /*    pie de pagina  1  */
 .footer {
+    display: flex;
+    align-items: center;
+
     width: 1600px;
     height: 252px;
     background: #2F303A;
 
-    display: flex;
-    flex-direction: column;
-    align-items: initial;
-    justify-content: center;
+    
 
 }
 
+.footer div{ 
+    display: flex;
+    align-items: initial;
+    justify-content: center; 
+    flex-direction: column;
+
+    margin-left: 215px;
+}
+
+.footer div >a{
+    margin-left: 0;
+}
+
+.footer div >address ul li{
+    text-align: left;
+}
+
 .link-webstudio-footer{
-margin-left: 250px;
+
 margin-bottom: 9px;
 text-decoration: none;
 
@@ -635,10 +741,12 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 
+.link-webstudio-footer  div > a{
+    margin: 0;
+}
+
 
 .piepag-direcion{
-
-    margin-left: 215px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -655,7 +763,6 @@ color: #2196F3;
 }
 
 .pie-pag-email-tel .header-email{
-    margin-left: 215px;
     text-decoration: none;
 
     font-style: normal;
@@ -668,7 +775,6 @@ color: #2196F3;
 }
 
 .pie-pag-email-tel .header-tel{
-    margin-left: 215px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -677,6 +783,41 @@ color: #2196F3;
 
     color: rgba(255, 255, 255, 0.6);
 }
+                        /*   pi de pagina section 2*/
+.footer h2{
+    width: 150px;
+    height: 16px;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+
+    color: #FFFFFF;
+}
+
+.footer section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.footer section > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
                         /*portafolio*/
 
 
