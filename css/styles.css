@@ -38,6 +38,8 @@ body{
     height: 50px;
     left: 666px;
     top: 430px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .buttons{
@@ -45,6 +47,7 @@ body{
     list-style: none;
     justify-content: center;
     gap: 8px;
+    
     
 }
 
