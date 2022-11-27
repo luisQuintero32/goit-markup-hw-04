@@ -32,12 +32,15 @@ body{
     height: 50px;
     left: 666px;
     top: 430px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .buttons{
     display: flex;
     list-style: none;
     justify-content: center;
     gap: 8px;
+    
     
 }
 .button{
@@ -173,7 +176,11 @@ body .container{
     margin-top: 30px;
     background: #2196F3;
     border-radius: 2px;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
 }
 
 .link-header:hover {
@@ -233,9 +240,11 @@ body .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     padding-top: 30px;
+<<<<<<< HEAD
     width: 261px;
+=======
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
     width: 200px;
     height: 50px;
     z-index: 6;
@@ -246,8 +255,13 @@ body .container{
 
 .banner-button .buttom:hover{
     background: #2196F3;
+<<<<<<< HEAD
 
 
+=======
+    
+    
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
 }
                             /* section 2*/
 .quality{
@@ -538,9 +552,40 @@ height: 100%;
 
 }
 
+.icon-card{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-left: 10px;
+    width: 32px;
+    height: 44px;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    
+}
+
+.icon-card:hover{
+    fill: #FFFFFF;
+    background: #2196F3;
+}
+
+.icon-card use{
+    fill: #AFB1B8;
+}
+
+.icon-card use:hover{ 
+    fill:  #FFFFFF;
+    
+    
+}
+
 .icon{
+<<<<<<< HEAD
     width: 20px;
     height: 20px;
+=======
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -550,7 +595,11 @@ height: 100%;
     bottom: 0;
     border-radius: 50%;
     background-color: #2F303A;;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
 }
 
 .icon:hover{
@@ -559,6 +608,7 @@ height: 100%;
 }
 
 .icon use{
+<<<<<<< HEAD
     fill: #AFB1B8;;
     fill: #AFB1B8;
 }
@@ -570,6 +620,15 @@ height: 100%;
     fill:  #FFFFFF;;
 
 
+=======
+    fill: #AFB1B8;
+}
+
+.icon use:hover{ 
+    fill:  #FFFFFF;;
+    
+    
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
 }
 
 .title-team{
@@ -604,7 +663,10 @@ color: #757575;
 }
                         /*    section end    */
 .box-svg{
+<<<<<<< HEAD
     width: 1600px;
+=======
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
     width: 1oovw;
     height: 1px;
 }
@@ -696,7 +758,11 @@ color: #757575;
 }
 
 .footer section ul li svg{
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
     gap: 10px;
 }
 
@@ -714,7 +780,6 @@ color: #2196F3;
 .link-webstudio-footer  div > a{
     margin: 0;
 }
-
 
 .piepag-direcion{
     font-style: normal;
@@ -802,7 +867,10 @@ color: #2196F3;
 
 .list-card{
     padding-bottom: 82px;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
     width: 100vw;
     display: flex;
     align-items: center; 
