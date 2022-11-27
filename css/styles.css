@@ -241,10 +241,7 @@ body .container{
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-<<<<<<< HEAD
     width: 261px;
-=======
->>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
     width: 200px;
     height: 50px;
     z-index: 6;
@@ -255,13 +252,6 @@ body .container{
 
 .banner-button .buttom:hover{
     background: #2196F3;
-<<<<<<< HEAD
-
-
-=======
-    
-    
->>>>>>> a9a443564fd280e4ae6ce2f61b4908e788380fc6
 }
                             /* section 2*/
 .quality{
